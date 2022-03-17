@@ -9,7 +9,7 @@ def home():
     #   with the appropriate log level.
     if log:
         if log == 'info':
-            app.log.info('No issue.')
+            app.logger.info('No issue.')
         elif log == 'warning':
             app.logger.warning('Warning occurred.')
         elif log == 'error':
